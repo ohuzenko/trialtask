@@ -19,9 +19,7 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by sunny_IT on 1/26/2017.
- */
+
 public class ApplicationManager {
     private final Properties properties;
     WebDriver wd;

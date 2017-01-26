@@ -10,9 +10,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created by sunny_IT on 1/26/2017.
- */
+
 public class DataProviders {
 
     @DataProvider

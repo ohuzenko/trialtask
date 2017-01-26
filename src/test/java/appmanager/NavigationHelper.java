@@ -3,9 +3,6 @@ package appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by sunny_IT on 1/26/2017.
- */
 public class NavigationHelper extends HelperBase{
 
     public NavigationHelper(WebDriver wd) {

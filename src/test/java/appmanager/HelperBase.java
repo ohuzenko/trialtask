@@ -8,9 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 
-/**
- * Created by sunny_IT on 1/26/2017.
- */
+
 public class HelperBase {
     protected WebDriver wd;
     protected WebDriverWait wait;

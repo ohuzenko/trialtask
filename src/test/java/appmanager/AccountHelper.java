@@ -13,9 +13,7 @@ import java.util.List;
 
 import static utils.GitConditions.*;
 
-/**
- * Created by sunny_IT on 1/26/2017.
- */
+
 public class AccountHelper  extends HelperBase {
 
     By username;

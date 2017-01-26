@@ -9,9 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-/**
- * Created by sunny_IT on 1/26/2017.
- */
+
 public class UserRegistration extends TestBase {
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "getValidUserData")
@@ -36,9 +34,6 @@ public class UserRegistration extends TestBase {
               .submitEmptyAccountCreation();
 
   }
-
-
-
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "getInvalidUserData")
     public void testRegistrationWithInvalidData(String user, String email, String reason) {

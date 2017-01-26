@@ -2,9 +2,6 @@ package model;
 
 import static java.lang.System.currentTimeMillis;
 
-/**
- * Created by sunny_IT on 1/26/2017.
- */
 public class AccountData {
     private String userName;
     private String emailAddress;

@@ -36,3 +36,35 @@
 2017-01-27 01:02:30 INFO  - 	error message for incorrect email: Email is invalid or already taken
 2017-01-27 01:02:30 INFO  - result: Success
 2017-01-27 01:02:30 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:41:33 INFO  - Stop test testAccountCreation
+2017-01-27 01:41:33 INFO  - Stop test testRegistrationWithEmptyData
+2017-01-27 01:41:33 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:41:33 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:41:33 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:41:33 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:43:36 INFO  - Start test testAccountCreation with parameters [test, most, @gmail.com]
+2017-01-27 01:43:43 INFO  - result: Success
+2017-01-27 01:43:43 INFO  - Stop test testAccountCreation
+2017-01-27 01:43:43 INFO  - Start test testRegistrationWithEmptyData with parameters []
+2017-01-27 01:43:51 INFO  - result: Success
+2017-01-27 01:43:51 INFO  - Stop test testRegistrationWithEmptyData
+2017-01-27 01:43:51 INFO  - Start test testRegistrationWithInvalidData with parameters [ohuzenko, @gmail.com, username]
+2017-01-27 01:43:53 INFO  - 	error message for incorrect username: Login is already taken
+2017-01-27 01:43:53 INFO  - 	error message for incorrect username: Email is invalid or already taken
+2017-01-27 01:43:53 INFO  - result: Success
+2017-01-27 01:43:53 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:43:53 INFO  - Start test testRegistrationWithInvalidData with parameters [#12, @gmail.com, username]
+2017-01-27 01:43:54 INFO  - 	error message for incorrect username: Login may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen
+2017-01-27 01:43:54 INFO  - 	error message for incorrect username: Email is invalid or already taken
+2017-01-27 01:43:54 INFO  - result: Success
+2017-01-27 01:43:54 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:43:54 INFO  - Start test testRegistrationWithInvalidData with parameters [test, invalidmail, email]
+2017-01-27 01:43:56 INFO  - 	error message for incorrect email: Login is already taken
+2017-01-27 01:43:56 INFO  - 	error message for incorrect email: Email is invalid or already taken
+2017-01-27 01:43:56 INFO  - result: Success
+2017-01-27 01:43:56 INFO  - Stop test testRegistrationWithInvalidData
+2017-01-27 01:43:56 INFO  - Start test testRegistrationWithInvalidData with parameters [test,  @@gmail.com, email]
+2017-01-27 01:43:57 INFO  - 	error message for incorrect email: Login is already taken
+2017-01-27 01:43:57 INFO  - 	error message for incorrect email: Email is invalid or already taken
+2017-01-27 01:43:57 INFO  - result: Success
+2017-01-27 01:43:57 INFO  - Stop test testRegistrationWithInvalidData
