@@ -15,7 +15,7 @@ import java.util.List;
 public class UserRegistration extends TestBase {
 
     @Test(dataProviderClass = DataProviders.class, dataProvider = "getValidUserData")
-    public void testContactCreation(String user, String password, String email) {
+    public void testAccountCreation(String user, String password, String email) {
         app.goTo().joinPage();
         app.account()
                 .fillAccountForm(new AccountData().withUserName(user).withPassword(password).withEmailAddress(email))
